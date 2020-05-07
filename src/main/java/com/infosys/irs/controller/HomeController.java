@@ -10,5 +10,6 @@ public class HomeController {
 	@GetMapping(value = "/")
 	public ModelAndView getHomeDetails() {
 		return new ModelAndView("infyGoHome", "", "");
+		//added message
 	}
 }
